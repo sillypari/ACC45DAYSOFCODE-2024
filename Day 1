@@ -19,3 +19,26 @@ while True:
             print(" \n \n Please enter Valid Value 0-20 \n \n")
     except ValueError:
         print("Please enter Correct Score Point")
+
+
+# Day 1 Modereate 
+# Parikshit SIngh Bais 
+# BTech CSE Sec-A ~ 1st Sem 
+
+x=str(input("Enter You word :  ")).lower()
+lst=list(x)
+consonants = list("bcdfghjklmnpqrstvwxyz")
+consonant=0
+
+for char in lst:
+    if char in consonants:
+        consonant+=1
+        if consonant >=4:
+            print("It's diffciult to Pronounce")
+            break
+    else : 
+        consonant=0
+else : 
+    print("Easy to Pronounce")
+
+
