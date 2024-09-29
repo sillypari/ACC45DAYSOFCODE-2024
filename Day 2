@@ -1,0 +1,19 @@
+#Question No. 1 : 
+
+#No of People in group, grouping of 6 and left over people
+N=int(input("Please enter no. of People in group : "))
+pairs=N//6
+peep=pairs*6
+print(pairs)
+left=N%6
+print(left)
+
+#total cost
+X=int(input("Please enter Subcription Price : "))
+gc=X/peep
+print(gc)
+loc=X/left
+print(loc)
+
+totalcost=gc+loc
+print("Per Person Cost : ", totalcost)
