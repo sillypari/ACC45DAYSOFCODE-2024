@@ -1,0 +1,10 @@
+# Day 09 
+# cooler dilemma 
+
+
+month=int(input("Please enter cost of rent per month : "))
+cooler=int(input("Please enter cost of new cooler : "))
+
+total_months=cooler//month
+print(f'Total no. of months {total_months}')
+
