@@ -1,0 +1,25 @@
+# Monopoly game pf companies
+
+P=int(input("Enter Profit of company A : "))
+Q=int(input("Enter Profit of company B : "))
+R=int(input("Enter Profit of company C : "))
+S=int(input("Enter Profit of company D : "))
+
+if P > (Q + R + S):
+        
+    print("There is Monopoly of Company A")
+        
+elif Q > (P + R + S):
+    print("There is Monopoly of Company B")    
+
+elif R > (P + Q + S):
+        print("There is Monopoly of Company C")    
+        
+elif S > (P + Q + R):
+        print("There is Monopoly of Company D")    
+
+else:
+        print("There is No Monopoly of any Company")    
+        
+
+
