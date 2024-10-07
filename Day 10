@@ -1,0 +1,12 @@
+# Easy level -- question 1
+w=int(input("Please enter weight W : "))
+x=int(input("Please enter weight X : "))
+y=int(input("Please enter weight Y : "))
+z=int(input("Please enter weight Z : "))
+
+if w==x or w==y or w==z or w==x+y+z or w==x+y or w==y+z or w==x+z :
+
+    print("Yes")
+
+else : 
+    print("No")
