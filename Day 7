@@ -1,0 +1,8 @@
+t=int(input("Please enter the time : "))
+
+tl=10-t
+
+if tl>=3 :
+    print("yes")
+else : 
+    print("No")
