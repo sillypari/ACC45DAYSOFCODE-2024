@@ -1,0 +1,19 @@
+# relative speed -- (2 unit - 1 unit = 1 unit )
+# relative distance between theif and police man = | Y-X | 
+# relative time = relative distnce / relative speed
+# think this in relative speed : making police man stationary will give 
+# speed of -1 unit to the theif and thief will come towared policeman 
+# make most intuitive sense for (y-x)
+
+x=int(input("Enter the location of police man : "))
+y=int(input("Enter the location of theif : "))
+
+rd=abs(y-x)
+time=rd/1
+
+print(f"minimum time require is {time} units")
+
+ 
+
+
+
