@@ -1,5 +1,6 @@
 # Total card : N 
-# Faced up Cards : N-X 
+# Faced up Cards : X
+# Faced down cards : N-X
 
 N=int(input("Please enter total card : "))
 X=int(input("Please total cards flippped up  : "))
