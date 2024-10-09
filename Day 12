@@ -1,0 +1,8 @@
+# Total card : N 
+# Faced up Cards : N-X 
+
+N=int(input("Please enter total card : "))
+X=int(input("Please total cards flippped up  : "))
+
+p=min(X,N-X)
+print(f"Minimum Cards needs to be flipped is/are : {p}")
